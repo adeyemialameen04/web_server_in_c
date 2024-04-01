@@ -72,5 +72,5 @@ HTTPRequest_t http_request_constructor(char *request_string)
 	http_version = strtok(NULL, "/");
 	request.HTTP_version = (float)atof(http_version);
 
-		return (request);
+	return (request);
 }
